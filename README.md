@@ -63,6 +63,7 @@ Ce projet a été développé avec Python 3.10+.
 **1. Cloner le dépôt**
 
 git clone [https://github.com/votre-username/ai-dataviz.git](https://github.com/votre-username/ai-dataviz.git)
+
 cd ai-dataviz
 
 **2. Configurer la clé API**
@@ -72,6 +73,7 @@ GOOGLE_API_KEY="votre_clé_api_ici"
 **3. Installer les dépendances**
 
 pip install uv
+
 uv sync
 ---
 ## 🚀 Instructions de Lancement
