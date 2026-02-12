@@ -42,7 +42,7 @@ graph LR
 
 ## 📂 Structure du Projet
 
-```mermaid
+```
 projet_data_visualisation/
 ├── .env                     # Clé API Google (GEMINI_API_KEY)
 ├── pyproject.toml           # Gestion des dépendances (uv)
