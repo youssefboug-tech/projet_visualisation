@@ -75,6 +75,7 @@ GOOGLE_API_KEY="votre_clé_api_ici"
 pip install uv
 
 uv sync
+
 ---
 ## 🚀 Instructions de Lancement
 
