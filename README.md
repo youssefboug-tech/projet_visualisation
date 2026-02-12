@@ -31,13 +31,14 @@ Ce projet se distingue par son **Architecture Multi-Agents (Scaffolding)** : au 
 
 Le projet repose sur un pipeline en deux étapes strictes :
 
-```mermaid
 graph LR
     A[Utilisateur] -->|Question| B(Agent Architecte 🧠)
     B -->|Plan JSON| C{Stratégie Validée}
     C -->|Instructions| D(Agent Ingénieur 🔧)
     D -->|Code Python| E[Streamlit]
     E -->|Exécution| F[Visualisation Plotly]
+
+---
 
 ## 📂 Structure du Projet
 
@@ -53,7 +54,7 @@ projet_data_visualisation/
 │   └── utils/
 │       └── data_loader.py   # Chargement CSV & Datasets
 └── README.md
-
+---
 ## 💻 Instructions d'Installation
 Ce projet a été développé avec Python 3.10+.
 
@@ -70,7 +71,7 @@ GOOGLE_API_KEY="votre_clé_api_ici"
 
 pip install uv
 uv sync
-
+---
 ## 🚀 Instructions de Lancement
 
 Une fois l'installation terminée, lancez l'application avec la commande suivante :
