@@ -30,18 +30,19 @@ Ce projet se distingue par son **Architecture Multi-Agents (Scaffolding)** : au 
 ## 🏗️ Architecture Technique
 
 Le projet repose sur un pipeline en deux étapes strictes :
-
+```mermaid
 graph LR
     A[Utilisateur] -->|Question| B(Agent Architecte 🧠)
     B -->|Plan JSON| C{Stratégie Validée}
     C -->|Instructions| D(Agent Ingénieur 🔧)
     D -->|Code Python| E[Streamlit]
     E -->|Exécution| F[Visualisation Plotly]
-
+```
 ---
 
 ## 📂 Structure du Projet
 
+```mermaid
 projet_data_visualisation/
 ├── .env                     # Clé API Google (GEMINI_API_KEY)
 ├── pyproject.toml           # Gestion des dépendances (uv)
@@ -54,6 +55,7 @@ projet_data_visualisation/
 │   └── utils/
 │       └── data_loader.py   # Chargement CSV & Datasets
 └── README.md
+```
 ---
 ## 💻 Instructions d'Installation
 Ce projet a été développé avec Python 3.10+.
